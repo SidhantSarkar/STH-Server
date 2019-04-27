@@ -14,7 +14,9 @@ firebase.initializeApp(config);
 
 var database = firebase.database();
 let newItems = false
+// variable for IR database child
 var shooter = firebase.database().ref('Shoot/');
+// variable for active session database child
 var user = firebase.database().ref('users/');
 
 shooter.on('child_added', snapshot => {
