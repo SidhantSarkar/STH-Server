@@ -3,12 +3,7 @@ var firebase = require("firebase");
 
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyB9OLlVH6X9xxTU0VfE4fpiWV5ys__Jp80",
-    authDomain: "unity-ar-2203a.firebaseapp.com",
-    databaseURL: "https://unity-ar-2203a.firebaseio.com",
-    projectId: "unity-ar-2203a",
-    storageBucket: "unity-ar-2203a.appspot.com",
-    messagingSenderId: "356484484898"
+    
 };
 firebase.initializeApp(config);
 
